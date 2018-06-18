@@ -20,7 +20,7 @@ def get_port(url):
 
 def UnhandledQuery(Fault):
 	"查询未得到处理的异常"
-	def __init__(delf, message = 'Couldn\'t handle the query'):
+	def __init__(self, message = 'Couldn\'t handle the query'):
 		super().__init__(UNHANDLED, message)
 
 def AccessDenied(Fault):
